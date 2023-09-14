@@ -1,0 +1,45 @@
+.LoginPage{
+    padding:10px 5px;
+    width: 40vw;
+    min-height: 50vh;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 5px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+}
+
+.LoginHead{
+    margin: 20px 0px;
+}
+
+.LoginPage input{
+    margin: 15px 0px;
+    padding: 3px 6px; 
+    height: 2rem;
+    width: 90%;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.LoginPage > .btn{
+    margin: 15px 0px;
+    width: 90%;
+    padding: 8px 12px;
+    color: white;
+    background-color: #068FFF;
+    display: inline-block;
+    outline: none;
+    border: none;
+    font-size: large;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.LoginPage > .btn:hover{
+    opacity: 0.8;
+}
